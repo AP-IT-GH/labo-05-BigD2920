@@ -1,3 +1,36 @@
+html {
+    min-height: 100%;
+}
+
+body {
+    min-height: 100vh;
+}
+main {
+    display: grid;
+    grid-template-areas: 
+        "article1 article2 article3"
+        "article4 article5 article6"
+        "article7 article8 article9";
+    
+    grid-template-rows: 100px 100px 100px;
+    gap: 10px;
+}
 article {
-    border: ;
+    border: 1px solid;
+}
+
+article:nth-child(even) {
+    background: rgb(47, 204, 113); 
+    color: white; 
+}
+article:nth-child(odd) {
+    background: rgb(241, 196, 15);
+}
+article:first-child {
+    background: rgb(52, 152, 219);
+    color: white;
+}
+article:last-child {
+    background: rgb(231, 75, 60);
+    color: white;
 }

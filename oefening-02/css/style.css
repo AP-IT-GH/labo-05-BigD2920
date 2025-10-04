@@ -15,7 +15,7 @@ header {
   grid-area: header;
   display: grid;
   grid-template-columns: auto 250px;
-  grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: auto;
 }
 main {
   background-color: #7da9d5;
